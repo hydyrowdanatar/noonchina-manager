@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "others",
+  "info": {
+    "singularName": "other",
+    "pluralName": "others",
+    "displayName": "Other",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    }
+  }
+}

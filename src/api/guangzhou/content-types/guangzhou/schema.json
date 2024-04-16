@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "guangzhous",
+  "info": {
+    "singularName": "guangzhou",
+    "pluralName": "guangzhous",
+    "displayName": "Guangzhou"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name_tm": {
+      "type": "string"
+    },
+    "name_ru": {
+      "type": "string"
+    },
+    "name_en": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "city_tm": {
+      "type": "string"
+    },
+    "city_ru": {
+      "type": "string"
+    },
+    "city_en": {
+      "type": "string"
+    },
+    "faculty_number": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "description_ru": {
+      "type": "text"
+    },
+    "description_tm": {
+      "type": "text"
+    },
+    "description_en": {
+      "type": "text"
+    }
+  }
+}
